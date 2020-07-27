@@ -1,0 +1,12 @@
+.lamp {
+  border: 1px solid black;
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%;
+  border:1px solid gold;
+}
+
+.lamp-active {
+  border:1px solid gold;
+  background-color: yellow;
+}
