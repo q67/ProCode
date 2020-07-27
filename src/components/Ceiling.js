@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Ceiling.css';
 import Cell from './Cell.js';
 
-const cellsQty = 15; // Cells quantity
+const cellsQty = 11; // Cells quantity
 
 function Ceiling() {
   
@@ -12,8 +12,6 @@ function Ceiling() {
   for (let i = 0; i < cellsQty; i++) {
     cellKeys[i] = `cell${i}`;
   }
-
-  // console.log('ceiling allState:',allState); 
 
   const arrCells = cellKeys.map((item) => (
     <Cell key={item} value={allState} />
